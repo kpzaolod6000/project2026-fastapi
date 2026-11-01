@@ -1,0 +1,12 @@
+[tool.mypy]
+# Define the Python version you are targeting
+python_version = "3.12"
+
+# Enables strict mode (forces you to type everything and bans untyped definitions)
+strict = true
+
+# Shows specific error codes in the terminal output for easier troubleshooting
+show_error_codes = true
+
+# Prevents third-party libraries without type hints from breaking your analysis
+ignore_missing_imports = true
